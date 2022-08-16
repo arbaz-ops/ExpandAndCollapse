@@ -17,6 +17,8 @@
 		7CA2E07C28ABED9100FBBD85 /* ExpandAndCollaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2E07B28ABED9100FBBD85 /* ExpandAndCollaseTests.swift */; };
 		7CA2E08628ABED9100FBBD85 /* ExpandAndCollaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2E08528ABED9100FBBD85 /* ExpandAndCollaseUITests.swift */; };
 		7CA2E08828ABED9100FBBD85 /* ExpandAndCollaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2E08728ABED9100FBBD85 /* ExpandAndCollaseUITestsLaunchTests.swift */; };
+		7CA2E09628ABEDBE00FBBD85 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2E09428ABEDBE00FBBD85 /* CustomTableViewCell.swift */; };
+		7CA2E09728ABEDBE00FBBD85 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CA2E09528ABEDBE00FBBD85 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7CA2E08128ABED9100FBBD85 /* ExpandAndCollaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandAndCollaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA2E08528ABED9100FBBD85 /* ExpandAndCollaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollaseUITests.swift; sourceTree = "<group>"; };
 		7CA2E08728ABED9100FBBD85 /* ExpandAndCollaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CA2E09428ABEDBE00FBBD85 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7CA2E09528ABEDBE00FBBD85 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7CA2E06F28ABED9100FBBD85 /* LaunchScreen.storyboard */,
 				7CA2E07228ABED9100FBBD85 /* Info.plist */,
 				7CA2E06A28ABED8F00FBBD85 /* ExpandAndCollase.xcdatamodeld */,
+				7CA2E09428ABEDBE00FBBD85 /* CustomTableViewCell.swift */,
+				7CA2E09528ABEDBE00FBBD85 /* CustomTableViewCell.xib */,
 			);
 			path = ExpandAndCollase;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			files = (
 				7CA2E07128ABED9100FBBD85 /* LaunchScreen.storyboard in Resources */,
 				7CA2E06E28ABED9100FBBD85 /* Assets.xcassets in Resources */,
+				7CA2E09728ABEDBE00FBBD85 /* CustomTableViewCell.xib in Resources */,
 				7CA2E06928ABED8F00FBBD85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA2E06628ABED8F00FBBD85 /* ViewController.swift in Sources */,
+				7CA2E09628ABEDBE00FBBD85 /* CustomTableViewCell.swift in Sources */,
 				7CA2E06228ABED8F00FBBD85 /* AppDelegate.swift in Sources */,
 				7CA2E06428ABED8F00FBBD85 /* SceneDelegate.swift in Sources */,
 				7CA2E06C28ABED8F00FBBD85 /* ExpandAndCollase.xcdatamodeld in Sources */,
